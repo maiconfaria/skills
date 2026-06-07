@@ -1,0 +1,50 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "upstream": [
+    {
+      "owner": "sigridjineth",
+      "repo": "hello-ansible-skills",
+      "url": "https://github.com/sigridjineth/hello-ansible-skills",
+      "branch": "main",
+      "head": "3062baada51d4fb2279334a7e8bf3e7d02347fde",
+      "skills": [
+        "ansible-debug",
+        "ansible-convert",
+        "ansible-interactive",
+        "ansible-playbook"
+      ]
+    },
+    {
+      "owner": "hashicorp",
+      "repo": "agent-skills",
+      "url": "https://github.com/hashicorp/agent-skills",
+      "branch": "main",
+      "head": "339a113935812ad75c6ff90d418b739a021826d1",
+      "skills": [
+        "aws-ami-builder",
+        "new-terraform-provider",
+        "provider-actions",
+        "provider-docs",
+        "provider-resources",
+        "provider-test-patterns",
+        "push-to-registry",
+        "refactor-module",
+        "run-acceptance-tests",
+        "terraform-search-import",
+        "terraform-stacks",
+        "terraform-style-guide",
+        "terraform-test"
+      ]
+    },
+    {
+      "owner": "maiconfaria",
+      "repo": "skills",
+      "url": "https://github.com/maiconfaria/skills",
+      "branch": "main",
+      "local": true,
+      "skills": [
+        "check-docs"
+      ]
+    }
+  ]
+}
