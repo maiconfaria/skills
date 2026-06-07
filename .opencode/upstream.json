@@ -43,7 +43,8 @@
       "branch": "main",
       "local": true,
       "skills": [
-        "check-docs"
+        "check-docs",
+        "easybuild-best-practices"
       ]
     }
   ]
